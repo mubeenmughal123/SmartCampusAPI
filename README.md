@@ -1,0 +1,2 @@
+# SmartCampusAPI
+Client Server Coursework
