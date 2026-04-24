@@ -1,0 +1,17 @@
+com\mycompany\sensorapi\SensorReadingResource.class
+com\mycompany\sensorapi\RoomNotEmptyException.class
+com\mycompany\sensorapi\SensorUnavailableException.class
+com\mycompany\sensorapi\RoomNotEmptyExceptionMapper.class
+com\mycompany\sensorapi\SensorUnavailableExceptionMapper.class
+com\mycompany\sensorapi\LoggingFilter.class
+com\mycompany\sensorapi\RoomStore.class
+com\mycompany\sensorapi\SensorStore.class
+com\mycompany\sensorapi\Room.class
+com\mycompany\sensorapi\TestResource.class
+com\mycompany\sensorapi\DiscoveryResource.class
+com\mycompany\sensorapi\SensorApi.class
+com\mycompany\sensorapi\GlobalExceptionMapper.class
+com\mycompany\sensorapi\Sensor.class
+com\mycompany\sensorapi\SensorResource.class
+com\mycompany\sensorapi\RoomResource.class
+com\mycompany\sensorapi\SensorReading.class
