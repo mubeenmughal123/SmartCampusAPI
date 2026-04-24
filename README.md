@@ -37,5 +37,6 @@
 
 ## Exposing internal java stack traces to API consumers can be a huge risk as it disclosures private information. A stack trace includes details such as class names, file paths and framework info which an attacker can use and then target weaknesses and do targeted attacks. API’s should return common error messages to users and stay far away from giving out any internal information to the outside users.
 
-Question: Why is it advantageous to use JAX-RS filters for cross-cutting concerns like logging, rather than manually inserting Logger.info() statements inside every single resource method?
-Using JAX-RS filters for logging is beneficial as it centralizes cross-cutting in one method instead of it being spread across multiple methods. All incoming and outgoing requests are captured by filters making sure the logging remains consistent throughout. This method keeps the resource classes clear and minimalizes code replication. Adding logging statements to each method will make the system more difficult to mange as it goes on and constant repetition of code.
+## Question: Why is it advantageous to use JAX-RS filters for cross-cutting concerns like logging, rather than manually inserting Logger.info() statements inside every single resource method?
+
+## Using JAX-RS filters for logging is beneficial as it centralizes cross-cutting in one method instead of it being spread across multiple methods. All incoming and outgoing requests are captured by filters making sure the logging remains consistent throughout. This method keeps the resource classes clear and minimalizes code replication. Adding logging statements to each method will make the system more difficult to mange as it goes on and constant repetition of code.
